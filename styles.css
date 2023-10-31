@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#Logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#HeaderLogo {
+    width: 150px;
+    height: auto;
+}
+
+header {
+    background-color: #3498db; /* Light Blue */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #2980b9; /* Darker Blue on Hover */
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light Grayish Blue */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Jorian {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light Grayish Blue */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#TableProgram {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#TableProgram th,
+#TableProgram td {
+    border: 1px solid #bdc3c7; /* Lighter Border */
+    padding: 12px;
+    text-align: left;
+}
+
+#TableProgram th {
+    background-color: #3498db; /* Light Blue */
+    color: #fff;
+}
+
+footer {
+    background-color: #3498db; /* Light Blue */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#FooterTable {
+    width: 100%;
+}
+
+#FooterTable th,
+#FooterTable td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #4d94db; /* Darker Blue Border */
+}
+
+#FooterTable th {
+    background-color: #4d94db; /* Darker Blue */
+}
